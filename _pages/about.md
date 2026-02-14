@@ -25,5 +25,3 @@ latest_posts:
 ---
 
 Gabriel is a Ph.D. candidate in Neuroscience at the University of California, Los Angeles in Dr. Anne Churchland's lab. His research focuses on understanding the mouse visual system and how movements impact sensory encoding during freely-moving decision making.
-
-In his spare time, he likes to watch and review films on Letterboxd, cook good food, and spend quality time with friends and family.
