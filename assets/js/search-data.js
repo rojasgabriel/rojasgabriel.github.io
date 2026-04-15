@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Active research and software projects.",
+          description: "Thesis-aligned research directions in movement, engagement, and visual cortical coding.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -37,19 +37,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "projects-behavior-analyses",
-          title: 'behavior_analyses',
-          description: "Behavioral analysis workflows for chipmunk task datasets.",
+        },{id: "projects-task-independent-movement-tracks-engagement",
+          title: 'Task-Independent Movement Tracks Engagement',
+          description: "Modeling movement signals that are distinct from explicit task structure.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/behavior-analyses/";
-            },},{id: "projects-chipmunk-dashboard",
-          title: 'chipmunk-dashboard',
-          description: "Dashboard for tracking chipmunk-task experiments and metadata.",
+            },},{id: "projects-shared-gain-as-a-candidate-mechanism",
+          title: 'Shared Gain as a Candidate Mechanism',
+          description: "Testing whether a latent shared-gain process links movement state to population variability.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/chipmunk-dashboard/";
-            },},{id: "projects-ephys",
-          title: 'ephys',
-          description: "Analysis pipeline for Neuropixels + behavior data in freely moving mice.",
+            },},{id: "projects-locomotion-modulates-visual-cortex-responses",
+          title: 'Locomotion Modulates Visual Cortex Responses',
+          description: "SfN-focused replication of locomotion effects in VISp during freely moving behavior.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ephys/";
             },},{
