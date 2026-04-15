@@ -4,10 +4,10 @@ _site
 .idea
 .jekyll-cache
 .jekyll-metadata
-.ruby-version
 .sass-cache
 .tweet-cache
 .venv
+*.pre-wiki-workflows.bak
 assets/libs/
 assets/rendercv/rendercv_output/*.typ
 Gemfile.lock
