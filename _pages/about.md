@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: Neuroscience Ph.D. Candidate @ UCLA
+subtitle: Neuroscience PhD Candidate at UCLA
 
 profile:
   align: right
@@ -24,4 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Gabriel is a Ph.D. candidate in Neuroscience at the University of California, Los Angeles in Dr. Anne Churchland's lab. His research focuses on understanding the mouse visual system and how movements impact sensory encoding during freely-moving decision making.
+I am a Ph.D. candidate in Neuroscience at UCLA in Dr. Anne Churchland's lab.
+
+My research asks how body movement modulates visual cortical activity in freely moving mice during decision behavior. I combine Neuropixels electrophysiology with behavioral analyses to study locomotion effects, task-independent movement signals, and population-level sensory coding.
