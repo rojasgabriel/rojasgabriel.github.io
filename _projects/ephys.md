@@ -1,17 +1,17 @@
 ---
 layout: page
-title: ephys
-description: Analysis pipeline for Neuropixels + behavior data in freely moving mice.
+title: Locomotion Modulates Visual Cortex Responses
+description: SfN-focused replication of locomotion effects in VISp during freely moving behavior.
 importance: 1
 category: research
 ---
 
-`ephys` is my main analysis repository for electrophysiology and behavior experiments in the Churchland Lab.
+This project asks how locomotion state reshapes visual cortical responses during behavior.
 
-Core work includes:
+Core goals:
 
-- event-aligned population analyses in visual cortex
-- movement-state analyses during decision behavior
-- synchronization and trial-alignment utilities for behavior + neural data
+- quantify how sensory response strength changes across movement states
+- characterize population-level structure of movement-dependent modulation
+- establish general principles for state-dependent visual coding in freely moving mice
 
-The project supports ongoing thesis analyses focused on locomotion effects and task-independent movement signals.
+This is the first pillar of my thesis: movement state is a major modulator of sensory responses in VISp.

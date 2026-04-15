@@ -1,17 +1,17 @@
 ---
 layout: page
-title: behavior_analyses
-description: Behavioral analysis workflows for chipmunk task datasets.
+title: Task-Independent Movement Tracks Engagement
+description: Modeling movement signals that are distinct from explicit task structure.
 importance: 2
 category: research
 ---
 
-`behavior_analyses` contains behavior-only pipelines for training, performance, and task metrics.
+This project asks whether task-independent movement (TIM) captures engagement better than traditional motion-energy summaries.
 
-This repository is where I:
+Core questions:
 
-- process and summarize trial-level behavioral outcomes
-- quantify engagement and learning-related metrics
-- run analyses that do not require neural recordings
+- which movement components are explained by task demands vs independent internal state
+- whether TIM predicts fluctuations in behavior and sensory encoding
+- how TIM can be measured consistently across sessions and animals
 
-It complements the ephys workflow by separating behavior-first analysis from behavior+neural analysis.
+This is the second pillar of my thesis.

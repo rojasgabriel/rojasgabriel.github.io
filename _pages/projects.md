@@ -2,10 +2,11 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Active research and software projects.
+description: Thesis-aligned research directions in movement, engagement, and visual cortical coding.
 nav: true
 nav_order: 3
 horizontal: false
+display_categories: [research, tooling]
 ---
 
 <!-- pages/projects.md -->

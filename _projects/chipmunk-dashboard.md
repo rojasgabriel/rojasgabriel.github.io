@@ -1,17 +1,17 @@
 ---
 layout: page
-title: chipmunk-dashboard
-description: Dashboard for tracking chipmunk-task experiments and metadata.
+title: Shared Gain as a Candidate Mechanism
+description: Testing whether a latent shared-gain process links movement state to population variability.
 importance: 3
 category: tooling
 ---
 
-`chipmunk-dashboard` is a database-backed dashboard for monitoring experimental progress and data quality.
+This project evaluates a mechanistic hypothesis: a shared gain process may couple movement state to trial-by-trial neural variability.
 
-Main goals:
+Main aims:
 
-- make session and cohort status easy to inspect
-- centralize experiment metadata and operational notes
-- support day-to-day decision-making for ongoing experiments
+- compare shared-gain models against movement-only alternatives
+- quantify how much population variability is explained by latent gain terms
+- connect model structure to interpretable behavioral states
 
-This is the most mature software-engineering-oriented project in my current stack.
+This is the third pillar of my thesis.
