@@ -1,3 +1,20 @@
+## Shared wiki workflow
+
+For repository work, also load:
+
+- `~/LLM-wiki/index.md`
+- `~/LLM-wiki/user.md`
+- `~/LLM-wiki/workflow.md`
+- `~/LLM-wiki/preferences.md`
+- `~/LLM-wiki/active.md`
+- `~/LLM-wiki/projects/rojasgabriel.github.io/context.md`
+- `~/LLM-wiki/projects/rojasgabriel.github.io/state.md`
+- `~/LLM-wiki/projects/rojasgabriel.github.io/memory.md`
+- `~/LLM-wiki/shared-workflows/contract.md`
+
+When interacting with the wiki, preserve the shared workflows in `~/LLM-wiki/shared-workflows/` and use the Claude or Copilot adapter docs under `~/LLM-wiki/adapters/` as wrappers only.
+
+
 # Agent Guidelines for al-folio
 
 A simple, clean, and responsive Jekyll theme for academics.
