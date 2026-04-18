@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Neuroscience PhD Candidate at UCLA
+subtitle: Neuroscience PhD Candidate at UCLA, <a href="https://churchlandlab.dgsom.ucla.edu/" rel="external nofollow noopener" target="_blank">Churchland Lab</a>
 
 profile:
   align: right
@@ -24,6 +24,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. candidate in Neuroscience at UCLA in Dr. Anne Churchland's [lab](https://churchlandlab.dgsom.ucla.edu/).
-
-My research asks how body movement modulates visual cortical activity in freely moving mice during decision behavior. I combine Neuropixels electrophysiology with behavioral analyses to study locomotion effects, task-independent movement signals, and population-level sensory coding.
+My research asks how body movements modulate visual cortical activity in freely moving mice during decision-making. I combine large-scale neural recordings with behavioral and neural modeling to study how movements shape sensory encoding during goal-directed behavior.
