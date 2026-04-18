@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-thesis-background",
+          title: "Thesis Background",
+          description: "The literature that frames my thesis questions on movement, visual processing, behavioral state, and neural population dynamics.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/background-papers/";
+          },
         },{id: "nav-projects",
           title: "Projects",
           description: "Thesis-aligned research directions in movement, engagement, and visual cortical coding.",
@@ -25,33 +32,38 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "Repositories",
-          description: "Selected GitHub repositories.",
+          description: "Public code and scientific software projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Education, research focus, and selected experience.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "projects-task-independent-movement-tracks-engagement",
-          title: 'Task-Independent Movement Tracks Engagement',
-          description: "Modeling movement signals that are distinct from explicit task structure.",
+        },{id: "projects-task-independent-movement-and-engagement",
+          title: 'Task-independent movement and engagement',
+          description: "Using task-independent movement to ask how movement, engagement, and sensory encoding are linked in V1.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/behavior-analyses/";
-            },},{id: "projects-shared-gain-as-a-candidate-mechanism",
-          title: 'Shared Gain as a Candidate Mechanism',
-          description: "Testing whether a latent shared-gain process links movement state to population variability.",
+            },},{id: "projects-chipmunk-dashboard",
+          title: 'Chipmunk dashboard',
+          description: "An interactive dashboard for understanding behavior in a mouse visual decision-making task across animals and sessions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/chipmunk-dashboard/";
-            },},{id: "projects-locomotion-modulates-visual-cortex-responses",
-          title: 'Locomotion Modulates Visual Cortex Responses',
-          description: "SfN-focused replication of locomotion effects in VISp during freely moving behavior.",
+            },},{id: "projects-locomotion-and-visual-coding",
+          title: 'Locomotion and visual coding',
+          description: "Asking how locomotion reshapes sensory encoding in V1 during freely moving decision-making.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ephys/";
+            },},{id: "projects-sensory-encoding-and-shared-state",
+          title: 'Sensory encoding and shared state',
+          description: "Using complementary models to ask how observed movement and latent shared state shape sensory encoding in V1.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/modeling/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
