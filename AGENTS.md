@@ -14,6 +14,7 @@ For repository work, also load:
 
 When interacting with the wiki, preserve the shared workflows in `~/LLM-wiki/shared-workflows/` and use the Claude or Copilot adapter docs under `~/LLM-wiki/adapters/` as wrappers only.
 
+
 # Agent Guidelines for al-folio
 
 A simple, clean, and responsive Jekyll theme for academics.

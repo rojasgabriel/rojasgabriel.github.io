@@ -14,6 +14,7 @@ For repository work, also load:
 
 When interacting with the wiki, preserve the shared workflows in `~/LLM-wiki/shared-workflows/` and use the Claude or Copilot adapter docs under `~/LLM-wiki/adapters/` as wrappers only.
 
+
 # Copilot Coding Agent Instructions
 
 ## Repository Overview
