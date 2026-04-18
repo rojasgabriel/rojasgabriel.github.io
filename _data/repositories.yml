@@ -4,7 +4,6 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - rojasgabriel/rojasgabriel.github.io
   - rojasgabriel/ephys
   - rojasgabriel/behavior_analyses
   - rojasgabriel/chipmunk-dashboard

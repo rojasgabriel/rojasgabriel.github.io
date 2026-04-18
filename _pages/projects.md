@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: Thesis-aligned research directions in movement, engagement, and visual cortical coding.
 nav: true
-nav_order: 3
+nav_order: 4
 horizontal: false
 display_categories: [research, tooling]
 ---

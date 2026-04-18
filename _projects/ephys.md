@@ -1,17 +1,13 @@
 ---
 layout: page
-title: Locomotion Modulates Visual Cortex Responses
-description: SfN-focused replication of locomotion effects in VISp during freely moving behavior.
+title: Locomotion and visual coding
+description: Asking how locomotion reshapes sensory encoding in V1 during freely moving decision-making.
 importance: 1
 category: research
 ---
 
-This project asks how locomotion state reshapes visual cortical responses during behavior.
+We often take for granted how effortlessly the visual system can process sensory information while the body is in motion. However, most of what we know about neurons in the primary visual cortex (V1), the part of the brain that helps process visual information, comes from experiments in which movement is constrained or absent altogether. Although this work established core properties of visual responses, it remains poorly understood how those responses are modulated as animals actively navigate their environment {% cite Niell2010Modulation %}{% cite Lee2014Brainstem %}.
 
-Core goals:
+A key discovery from head-fixed preparations is that locomotion substantially changes how V1 encodes visual stimuli. For example, neurons in V1 have stronger responses to visual stimuli during running than during quiescence, and running decreases both response variability and noise correlations across the population {% cite Niell2010Modulation %}{% cite Dadarlat2017Locomotion %}{% cite Bennett2013Subthreshold %}. In addition, other work has shown that spontaneous movements can shape activity in visual cortex even outside of a task, suggesting that movement-related signals are represented beyond locomotion alone {% cite Stringer2019Spontaneous %}. However, head-fixation substantially limits the range of movements animals can make during natural vision, and it is thus still unclear how locomotion and other movement signals interact with visual encoding when movement, sensation, and behavior are naturally coupled {% cite Odoemene2018VisualEvidence %}.
 
-- quantify how sensory response strength changes across movement states
-- characterize population-level structure of movement-dependent modulation
-- establish general principles for state-dependent visual coding in freely moving mice
-
-This is the first pillar of my thesis: movement state is a major modulator of sensory responses in VISp.
+To address this gap, I record the activity of many individual neurons in V1 at once using Neuropixels probes, which are high-density electrodes, in freely moving mice performing a visual decision-making task {% cite Odoemene2018VisualEvidence %}. In this task, mice view simple visual stimuli and make behavioral choices, allowing me to study sensory processing during ongoing behavior rather than under highly constrained conditions. By tracking locomotion continuously throughout each session, I ask how movement state reshapes sensory responses across the population: which neurons are modulated, how strongly, and whether population-level response structure changes with movement. Ultimately, this work aims to establish how locomotion-related signals influence visual coding under naturalistic conditions, and what that implies for how the brain integrates internal state with sensory input.
