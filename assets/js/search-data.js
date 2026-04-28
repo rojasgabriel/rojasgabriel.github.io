@@ -18,21 +18,21 @@ ninja.data = [{
           },
         },{id: "nav-thesis-background",
           title: "Thesis Background",
-          description: "The literature that frames my thesis questions on movement, visual processing, behavioral state, and neural population dynamics.",
+          description: "Literature that frames my thesis questions on movement, visual processing, behavioral state, and neural population dynamics.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/background-papers/";
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Thesis-aligned research directions in movement, engagement, and visual cortical coding.",
+          description: "Research directions focused on movement, engagement, and visual cortical coding during freely moving behavior.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
           title: "Repositories",
-          description: "Public code and scientific software projects.",
+          description: "Public code for neural data analysis, behavioral modeling, and experiment-facing software.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
