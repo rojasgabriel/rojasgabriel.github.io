@@ -2,11 +2,15 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Thesis-aligned research directions in movement, engagement, and visual cortical coding.
+description: Research directions focused on movement, engagement, and visual cortical coding during freely moving behavior.
 nav: true
 nav_order: 4
 horizontal: false
 display_categories: [research, tooling]
+_styles: |
+  .projects {
+    padding-bottom: 5rem;
+  }
 ---
 
 <!-- pages/projects.md -->

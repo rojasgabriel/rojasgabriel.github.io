@@ -2,7 +2,7 @@
 layout: page
 permalink: /background-papers/
 title: Thesis Background
-description: The literature that frames my thesis questions on movement, visual processing, behavioral state, and neural population dynamics.
+description: Literature that frames my thesis questions on movement, visual processing, behavioral state, and neural population dynamics.
 nav: true
 nav_order: 3
 _styles: |
@@ -156,7 +156,7 @@ _styles: |
     <div class="background-entry">
       <p class="paper-year">2019</p>
       <div class="publications">{% bibliography --group_by none --query @*[key=Stringer2019Spontaneous]* %}</div>
-      <p class="paper-note">Stringer et al. recorded neural activity during head-fixed conditions while measuring spontaneous, uninstructed behaviors rather than task behavior. They found that spontaneous facial and body movements explained a large multidimensional component of neural activity, including movement-related signals represented in VISp that were not directly tied to sensory exploration.</p>
+      <p class="paper-note">Stringer et al. recorded neural activity during head-fixed conditions while measuring spontaneous, uninstructed behaviors rather than task behavior. They found that spontaneous facial and body movements explained a large multidimensional component of neural activity, including movement-related signals represented in V1 that were not directly tied to sensory exploration.</p>
     </div>
 
     <div class="background-entry">

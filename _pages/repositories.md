@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: Repositories
-description: Public code and scientific software projects.
+description: Public code for neural data analysis, behavioral modeling, and experiment-facing software.
 nav: true
 nav_order: 5
 ---
