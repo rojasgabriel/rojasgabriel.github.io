@@ -1,23 +1,23 @@
-## Shared wiki workflow
-
-For repository work, also load:
-
-- `~/LLM-wiki/index.md`
-- `~/LLM-wiki/user.md`
-- `~/LLM-wiki/workflow.md`
-- `~/LLM-wiki/preferences.md`
-- `~/LLM-wiki/active.md`
-- `~/LLM-wiki/projects/rojasgabriel.github.io/context.md`
-- `~/LLM-wiki/projects/rojasgabriel.github.io/state.md`
-- `~/LLM-wiki/projects/rojasgabriel.github.io/memory.md`
-- `~/LLM-wiki/shared-workflows/contract.md`
-
-When interacting with the wiki, preserve the shared workflows in `~/LLM-wiki/shared-workflows/` and use the Claude or Copilot adapter docs under `~/LLM-wiki/adapters/` as wrappers only.
-
-
 # Agent Guidelines for al-folio
 
 A simple, clean, and responsive Jekyll theme for academics.
+
+## Site-specific content rules
+
+- The public scope is About, Publications, Projects, Repositories, CV, and
+  annotated Background Papers. Do not restore unused blog, books, news, or
+  teaching surfaces without an explicit request.
+- Project pages describe thesis questions and scientific goals, not task
+  status. Keep the chipmunk dashboard separate from thesis modeling.
+- Use V1, not VISp, except in verbatim titles, quotes, or dataset labels.
+- Describe task-independent movement as a tool Gabriel uses, not one he
+  developed.
+- Publications contain Gabriel-authored work only; background literature
+  belongs on the annotated Background Papers page.
+- Assume readers do not know the chipmunk task, TIM, Neuropixels, or internal
+  lab shorthand.
+- Read `VOICE.md` before drafting public scientific prose.
+- Use Notion for current review tasks and Git/GitHub for implementation state.
 
 ## Quick Links by Role
 
