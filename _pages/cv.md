@@ -20,6 +20,4 @@ _styles: |
 
 [Download CV (PDF)]({{ '/assets/pdf/GRB_CV.pdf' | relative_url }})
 
-<object class="cv-embed" data="{{ '/assets/pdf/GRB_CV.pdf' | relative_url }}" type="application/pdf">
-  <p>Your browser can't display the PDF here. <a href="{{ '/assets/pdf/GRB_CV.pdf' | relative_url }}">Download it instead</a>.</p>
-</object>
+{% include cv_embed.liquid %}
