@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-thesis-background",
-          title: "Thesis Background",
-          description: "Literature that frames my thesis questions on movement, visual processing, behavioral state, and neural population dynamics.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/background-papers/";
-          },
         },{id: "nav-projects",
           title: "Projects",
           description: "Research directions focused on movement, engagement, and visual cortical coding during freely moving behavior.",
@@ -30,19 +23,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "Repositories",
-          description: "Public code for neural data analysis, behavioral modeling, and experiment-facing software.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-friends",
+          title: "Friends",
+          description: "Friends and colleagues (with websites) doing great work. To be updated as more friends make websites.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/friends/";
+          },
+        },{id: "nav-contact",
+          title: "Contact",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/contact/";
           },
         },{id: "projects-task-independent-movement-and-engagement",
           title: 'Task-independent movement and engagement',
