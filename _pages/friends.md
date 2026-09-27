@@ -2,7 +2,7 @@
 layout: page
 permalink: /friends/
 title: Friends
-description: Friends and colleagues (with websites) doing great work. To be updated as more friends make websites.
+description: Friends and colleagues (with websites) that are awesome people doing awesome work! To be updated as more friends make websites.
 nav: true
 nav_order: 5
 ---
