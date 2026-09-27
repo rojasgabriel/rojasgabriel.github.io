@@ -10,5 +10,5 @@ _styles: |
   }
 ---
 
-- **Email:** [{{ site.data.socials.email }}](mailto:{{ site.data.socials.email }})
-- **GitHub:** [github.com/{{ site.data.socials.github_username }}](https://github.com/{{ site.data.socials.github_username }})
+- **Email:** [grojasbowe@gmail.com](mailto:grojasbowe@gmail.com)
+- **GitHub:** [github.com/rojasgabriel](https://github.com/rojasgabriel)
