@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: Research directions focused on movement, engagement, and visual cortical coding during freely moving behavior.
 nav: true
-nav_order: 4
+nav_order: 3
 horizontal: false
 display_categories: [research, tooling]
 _styles: |

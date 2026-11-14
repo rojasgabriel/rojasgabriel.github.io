@@ -19,8 +19,18 @@ manage_gemfile_lock() {
     fi
 }
 
+# Install any gems pinned in Gemfile.lock that the prebuilt image lacks
+# (e.g. after dependency security bumps). No-op when everything is present.
+ensure_gems() {
+    if ! bundle check &> /dev/null; then
+        echo "Installing gems missing from the image"
+        bundle install
+    fi
+}
+
 start_jekyll() {
     manage_gemfile_lock
+    ensure_gems
     bundle exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace --force_polling &
 }
 

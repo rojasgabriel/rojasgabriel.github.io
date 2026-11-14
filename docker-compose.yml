@@ -15,7 +15,15 @@ services:
     ports:
       - 8080:8080
       - 35729:35729
+    # run the repo's entry point (not the copy baked into the image) so it can
+    # install gems that Gemfile.lock pins but the prebuilt image lacks
+    command: ["bash", "/srv/jekyll/bin/entry_point.sh"]
     volumes:
       - .:/srv/jekyll
+      # persist installed gems between runs so the install only happens once
+      - bundle_cache:/usr/local/bundle
     environment:
       - JEKYLL_ENV=development
+
+volumes:
+  bundle_cache:
