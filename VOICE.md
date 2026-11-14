@@ -19,8 +19,9 @@ Prefer a compact version of this argument:
 - Name methods and what they measure: Neuropixels recordings, pose estimation
   using DeepLabCut, generalized linear models, or hidden Markov models.
 - State hypotheses and comparisons directly.
-- Prefer explicit causal links among movement, sensory encoding, internal
-  state, task structure, and performance.
+- Describe relationships among movement, sensory encoding, internal state,
+  task structure, and performance precisely. Distinguish association,
+  prediction, and causation; make causal claims only when the evidence supports them.
 - Use complete, evidence-grounded sentences. Avoid em dashes and decorative
   fragments.
 - Useful connectors include “However,” “For example,” “In addition,”
@@ -42,8 +43,7 @@ Prefer a compact version of this argument:
   text, titles, or dataset labels.
 - Task-independent movement (TIM) was developed in Churchland Lab work.
   Describe it as a measure Gabriel uses, not one he developed.
-- Publications contain Gabriel-authored work only. Background literature
-  belongs on the annotated Background Papers page.
+- Publications contain Gabriel-authored work only.
 
 ## Final check
 

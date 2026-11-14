@@ -4,16 +4,15 @@ A simple, clean, and responsive Jekyll theme for academics.
 
 ## Site-specific content rules
 
-- The public scope is About, Publications, Projects, Repositories, CV, and
-  annotated Background Papers. Do not restore unused blog, books, news, or
-  teaching surfaces without an explicit request.
+- The public scope is About, Publications, Projects, CV, Friends, and Contact.
+  Do not restore Repositories, Background Papers, or unused blog, books, news,
+  or teaching surfaces without an explicit request.
 - Project pages describe thesis questions and scientific goals, not task
   status. Keep the chipmunk dashboard separate from thesis modeling.
 - Use V1, not VISp, except in verbatim titles, quotes, or dataset labels.
 - Describe task-independent movement as a tool Gabriel uses, not one he
   developed.
-- Publications contain Gabriel-authored work only; background literature
-  belongs on the annotated Background Papers page.
+- Publications contain Gabriel-authored work only.
 - Assume readers do not know the chipmunk task, TIM, Neuropixels, or internal
   lab shorthand.
 - Read `VOICE.md` before drafting public scientific prose.
