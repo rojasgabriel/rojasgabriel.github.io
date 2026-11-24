@@ -24,6 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-We often treat sensory processing as if it can be studied separately from the movements animals make while gathering information and making decisions. However, in natural behavior, visual input, movement, and internal state are tightly linked. My research asks how body movements modulate activity in the primary visual cortex (V1) while freely moving mice perform visual decision-making tasks.
+I study how movement relates to visual processing in freely moving mice. What animals see, how they move, and how engaged they are in a task change together. I ask how these factors relate to activity in primary visual cortex (V1), a brain region that processes visual information.
 
-To address this question, I combine large-scale Neuropixels recordings with behavioral analysis and neural modeling. I study how locomotion and task-independent movements relate to sensory encoding, population variability, and engagement during goal-directed behavior. Ultimately, this work aims to clarify how the brain integrates sensory input with the ongoing movements and state changes that structure natural behavior.
+I use Neuropixels probes to record extracellular voltage while mice make choices based on visual cues. I sort spikes from the recordings and use statistical models to ask how walking and movements outside the task's requirements relate to visual responses and activity shared across neurons.
