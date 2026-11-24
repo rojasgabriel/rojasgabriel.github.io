@@ -24,6 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I study how movement relates to visual processing in freely moving mice. What animals see, how they move, and how engaged they are in a task change together. I ask how these factors relate to activity in primary visual cortex (V1), a brain region that processes visual information.
+I’m Gabriel Rojas, a neuroscience PhD candidate at UCLA in the Churchland Lab. I’m originally from Puerto Rico and now live in Los Angeles. I study how animals process sensory information while they move and make decisions.
 
-I use Neuropixels probes to record extracellular voltage while mice make choices based on visual cues. I sort spikes from the recordings and use statistical models to ask how walking and movements outside the task's requirements relate to visual responses and activity shared across neurons.
+You can read about my current work and find my publications on the [Research page]({{ '/research/' | relative_url }}).

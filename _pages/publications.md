@@ -2,12 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-nav: true
-nav_order: 2
+redirect: /research/#publications
 ---
 
-<!-- _pages/publications.md -->
-
-<div class="publications">
-  {% bibliography --query @*[grb=true]* %}
-</div>
+[View publications]({{ '/research/' | relative_url }}#publications)

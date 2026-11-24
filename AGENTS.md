@@ -4,7 +4,7 @@ A simple, clean, and responsive Jekyll theme for academics.
 
 ## Site-specific content rules
 
-- The public scope is About, Publications, CV, Friends, and Contact (Projects is hidden for now; `_projects/` content is kept).
+- The public scope is About, Research, CV, Friends, and Contact (Projects is hidden for now; `_projects/` content is kept).
   Do not restore Repositories, Background Papers, or unused blog, books, news,
   or teaching surfaces without an explicit request.
 - Project pages describe thesis questions and scientific goals, not task
