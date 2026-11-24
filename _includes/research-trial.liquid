@@ -1,37 +1,20 @@
-<figure
-  id="research-trial"
-  class="mt-4 mb-4"
-  data-voltage="{{ '/assets/img/research-trial/voltage.json' | relative_url | bust_file_cache }}"
->
+<figure id="research-trial" class="mt-4 mb-4">
   <h2 class="h5 mb-3">A mouse makes a visual choice</h2>
   <video
-    class="d-block w-100 rounded mb-4"
-    width="480"
+    class="d-block w-100"
+    width="960"
     height="312"
     controls
     muted
     playsinline
     preload="metadata"
-    aria-label="Bottom-view video of a mouse leaving the center port and choosing the right port"
+    aria-label="Slow-motion video of a mouse choosing the right port, alongside ten synchronized Neuropixels voltage traces"
     poster="{{ '/assets/img/research-trial/poster.jpg' | relative_url | bust_file_cache }}"
   >
     <source src="{{ '/assets/img/research-trial/trial.mp4' | relative_url | bust_file_cache }}" type="video/mp4">
   </video>
-
-  <h3 class="h5 mb-3">Spike-band voltage as the mouse turns</h3>
-  <p id="research-trial-status" class="small" role="status">Loading voltage traces…</p>
-  <div id="research-trial-plot" hidden>
-    {% include research-trial-spike-band.svg %}
-    <div class="mt-3">
-      <label class="small mb-0 mr-1" for="research-trial-channel">Highlight channel</label>
-      <select class="custom-select custom-select-sm w-auto" id="research-trial-channel">
-        <option value="">All channels</option>
-      </select>
-    </div>
-  </div>
-  <figcaption class="caption text-left">
-    The voltage plot follows the video and shows 60 ms around the current frame. The dashed line marks that frame. The ten Neuropixels channels are
-    band-pass filtered at 300–6,000 Hz and vertically offset.
+  <figcaption class="caption text-left mt-2">
+    Video plays at one-quarter speed. The traces show 60 ms of Neuropixels voltage around the current video frame, marked by the dashed line. The ten
+    traces are band-pass filtered at 300–6,000 Hz and vertically offset.
   </figcaption>
 </figure>
-<script defer src="{{ '/assets/js/research-trial.js' | relative_url | bust_file_cache }}"></script>
