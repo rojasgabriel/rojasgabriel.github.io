@@ -1,4 +1,4 @@
-<figure class="mt-4 mb-4">
+<figure id="research-trial" class="mt-4 mb-4">
   <h2 class="h5 mb-3">A mouse makes a visual choice</h2>
   <div class="row no-gutters mx-n1 mb-4">
     <div class="col-4 px-1">
@@ -45,16 +45,23 @@
     </div>
   </div>
   <h3 class="h5 mb-3">Spike-band voltage as the mouse turns</h3>
-  <img
-    class="img-fluid w-100 rounded"
-    src="{{ '/assets/img/research-trial/spike-band.svg' | relative_url }}"
-    width="620"
-    height="490"
-    alt="Ten stacked traces of recorded Neuropixels voltage. A dashed line at zero milliseconds aligns with the middle video frame."
-    loading="lazy"
-  >
+  {% include research-trial-spike-band.svg %}
+  <div id="research-trial-controls" class="mt-3" hidden>
+    <div class="d-flex justify-content-between align-items-center mb-1">
+      <label class="mb-0 small" for="research-trial-time">
+        Time from middle frame <output class="font-weight-bold ml-1" id="research-trial-time-value" for="research-trial-time">0.0 ms</output>
+      </label>
+      <button class="btn btn-sm btn-outline-secondary m-0 px-2 py-1" type="button" id="research-trial-reset">Reset to frame</button>
+    </div>
+    <input class="custom-range" id="research-trial-time" type="range" min="-30" max="30" step="0.1" value="0">
+    <label class="small mb-0 mr-1" for="research-trial-channel">Highlight channel</label>
+    <select class="custom-select custom-select-sm w-auto" id="research-trial-channel">
+      <option value="">All channels</option>
+    </select>
+  </div>
   <figcaption class="caption text-left">
     Bottom-view frames from one trial and 60 ms of Neuropixels voltage across ten example channels. The traces are band-pass filtered at 300–6,000 Hz
-    and vertically offset. The dashed line marks the middle video frame.
+    and vertically offset. The dashed line marks the middle video frame. Use the slider or click the plot to inspect another time.
   </figcaption>
 </figure>
+<script defer src="{{ '/assets/js/research-trial.js' | relative_url | bust_file_cache }}"></script>
