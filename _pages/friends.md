@@ -2,7 +2,7 @@
 layout: page
 permalink: /friends/
 title: Friends
-description: Friends and colleagues.
+description: Talented friends with personal websites
 nav: true
 nav_order: 5
 ---

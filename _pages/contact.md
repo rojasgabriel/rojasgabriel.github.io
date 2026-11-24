@@ -11,4 +11,3 @@ _styles: |
 ---
 
 - **Email:** [grojasbowe@gmail.com](mailto:grojasbowe@gmail.com)
-- **GitHub:** [github.com/rojasgabriel](https://github.com/rojasgabriel)
