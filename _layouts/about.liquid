@@ -67,7 +67,17 @@ layout: default
     <!-- Social -->
     {% if page.social %}
       <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
+        <div class="h4">
+          <a class="mx-2" href="https://x.com/{{ site.data.socials.x_username }}" aria-label="X"
+            ><i class="fa-brands fa-x-twitter" aria-hidden="true"></i
+          ></a>
+          <a class="mx-2" href="https://github.com/{{ site.data.socials.github_username }}" aria-label="GitHub"
+            ><i class="fa-brands fa-github" aria-hidden="true"></i
+          ></a>
+          <a class="mx-2" href="https://letterboxd.com/{{ site.data.socials.letterboxd_username }}/" aria-label="Letterboxd"
+            ><i class="fa-brands fa-letterboxd" aria-hidden="true"></i
+          ></a>
+        </div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>

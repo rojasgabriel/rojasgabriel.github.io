@@ -5,7 +5,9 @@ Do not force it onto code comments, internal notes, or casual messages.
 
 ## Structure
 
-Prefer a compact version of this argument:
+On the homepage, lead with Gabriel's research question and give readers only the
+context they need to understand it. For longer scientific explanations, use this
+argument when it helps:
 
 1. Start with the broad scientific or behavioral problem.
 2. Use “However,” to name the concrete limitation or gap.
@@ -19,13 +21,18 @@ Prefer a compact version of this argument:
 - Name methods and what they measure: Neuropixels recordings, pose estimation
   using DeepLabCut, generalized linear models, or hidden Markov models.
 - State hypotheses and comparisons directly.
+- Define unfamiliar terms in a few plain words when they first appear. Keep
+  necessary scientific detail, but unpack strings of technical nouns.
+- Prefer direct claims over broad opening statements and repeated statements
+  of the work's importance.
 - Describe relationships among movement, sensory encoding, internal state,
   task structure, and performance precisely. Distinguish association,
   prediction, and causation; make causal claims only when the evidence supports them.
 - Use complete, evidence-grounded sentences. Avoid em dashes and decorative
   fragments.
-- Useful connectors include “However,” “For example,” “In addition,”
-  “Importantly,” “Taken together,” “Therefore,” and “Ultimately,”.
+- Use connectors such as “However,” “For example,” and “Therefore,” when they
+  clarify the relationship between sentences. Do not force a transition into
+  every paragraph.
 
 ## Avoid
 

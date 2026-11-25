@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Neuroscience PhD Candidate at UCLA, <a href="https://churchlandlab.dgsom.ucla.edu/" rel="external nofollow noopener" target="_blank">Churchland Lab</a>
+subtitle:
 
 profile:
   align: right
@@ -11,7 +11,7 @@ profile:
   more_info:
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false
+social: true
 
 announcements:
   enabled: false # includes a list of news items
@@ -24,6 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-We often treat sensory processing as if it can be studied separately from the movements animals make while gathering information and making decisions. However, in natural behavior, visual input, movement, and internal state are tightly linked. My research asks how body movements modulate activity in the primary visual cortex (V1) while freely moving mice perform visual decision-making tasks.
+I’m Gabriel, a neuroscience PhD candidate at UCLA in the [Churchland Lab](https://churchlandlab.dgsom.ucla.edu/). I’m originally from Puerto Rico and now live in Los Angeles. I'm passionate about understanding the brain and often borrow tools from machine learning and statistics to do so.
 
-To address this question, I combine large-scale Neuropixels recordings with behavioral analysis and neural modeling. I study how locomotion and task-independent movements relate to sensory encoding, population variability, and engagement during goal-directed behavior. Ultimately, this work aims to clarify how the brain integrates sensory input with the ongoing movements and state changes that structure natural behavior.
+In my free time, I like spending time with my loved ones, playing video games, and watching movies.

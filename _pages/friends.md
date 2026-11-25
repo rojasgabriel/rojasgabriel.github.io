@@ -2,7 +2,7 @@
 layout: page
 permalink: /friends/
 title: Friends
-description: Friends and colleagues (with websites) that are awesome people doing awesome work! To be updated as more friends make websites.
+description: Talented friends with personal websites
 nav: true
 nav_order: 5
 ---
@@ -10,3 +10,7 @@ nav_order: 5
 ## Churchland Lab
 
 - [Stellina Ao](https://stellinaao.github.io/)
+
+## Falkner Lab
+
+- [Jorge Iravedra-García](https://www.iravedra.org/)
