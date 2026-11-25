@@ -9,9 +9,16 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-research",
+          title: "Research",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
+          },
+        },{id: "nav-publications",
           title: "Publications",
-          description: "Peer-reviewed publications.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -25,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-friends",
           title: "Friends",
-          description: "Friends and colleagues (with websites) that are awesome people doing awesome work! To be updated as more friends make websites.",
+          description: "Talented friends with personal websites",
           section: "Navigation",
           handler: () => {
             window.location.href = "/friends/";
