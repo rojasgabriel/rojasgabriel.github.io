@@ -25,3 +25,5 @@ latest_posts:
 ---
 
 I’m Gabriel, a neuroscience PhD candidate at UCLA in the [Churchland Lab](https://churchlandlab.dgsom.ucla.edu/). I’m originally from Puerto Rico and now live in Los Angeles. I'm passionate about understanding the brain and often borrow tools from machine learning and statistics to do so.
+
+In my free time, I like spending time with my loved ones, playing video games, and watching movies.
