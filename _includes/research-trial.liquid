@@ -7,10 +7,11 @@
     controls
     muted
     playsinline
-    preload="metadata"
+    preload="auto"
     aria-label="Slow-motion video of a mouse choosing the right port, alongside ten synchronized Neuropixels voltage traces"
     poster="{{ '/assets/img/research-trial/poster.jpg' | relative_url | bust_file_cache }}"
   >
+    <source src="{{ '/assets/img/research-trial/trial.webm' | relative_url | bust_file_cache }}" type="video/webm">
     <source src="{{ '/assets/img/research-trial/trial.mp4' | relative_url | bust_file_cache }}" type="video/mp4">
   </video>
   <figcaption class="caption text-left mt-2">
