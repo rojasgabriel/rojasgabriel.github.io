@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Neuroscience PhD Candidate at UCLA, <a href="https://churchlandlab.dgsom.ucla.edu/" rel="external nofollow noopener" target="_blank">Churchland Lab</a>
+subtitle:
 
 profile:
   align: right
@@ -24,6 +24,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m Gabriel Rojas, a neuroscience PhD candidate at UCLA in the Churchland Lab. I’m originally from Puerto Rico and now live in Los Angeles. I study how animals process sensory information while they move and make decisions.
-
-You can read about my current work and find my publications on the [Research page]({{ '/research/' | relative_url }}).
+I’m Gabriel, a neuroscience PhD candidate at UCLA in the [Churchland Lab](https://churchlandlab.dgsom.ucla.edu/). I’m originally from Puerto Rico and now live in Los Angeles. I'm passionate about understanding the brain and often borrow tools from machine learning and statistics to do so.
